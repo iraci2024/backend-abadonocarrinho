@@ -1,7 +1,7 @@
 const app = require('./app');
 const whatsappApi = require('./services/whatsappApi');
 
-const PORT = 5000;
+const PORT = process.env.PORT || 3000;
 
 // const sendInitialMessage = async () => {
 //   try {
